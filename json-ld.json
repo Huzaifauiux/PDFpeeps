@@ -1,24 +1,42 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "PDF Peeps",
-  "url": "https://pdfpeeps.framer.website",
-  "description": "Free, browser-based online tools to convert, merge, compress, and edit PDF documents quickly and securely.",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "All",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "featureList": [
-    "PDF Conversion",
-    "Merge PDFs",
-    "Compress PDF files",
-    "Edit PDFs online",
-    "100% Secure local processing"
-  ],
-  "browserRequirements": "Requires JavaScript. Requires HTML5."
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://pdfpeeps.framer.website/#organization",
+      "name": "PDFpeeps",
+      "url": "https://pdfpeeps.framer.website",
+      "logo": "https://framerusercontent.com/assets/eiIGPlxHSFBD10ZUftrxpbY.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/huzaifa-asad-276b861ba"
+      ]
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://pdfpeeps.framer.website/#webapp",
+      "name": "PDF Peeps",
+      "url": "https://pdfpeeps.framer.website",
+      "description": "Free, browser-based online tools to convert, merge, compress, and edit PDF documents quickly and securely.",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "publisher": {
+        "@id": "https://pdfpeeps.framer.website/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "PDF Conversion",
+        "Merge PDFs",
+        "Compress PDF files",
+        "Edit PDFs online",
+        "100% Secure local processing"
+      ],
+      "browserRequirements": "Requires JavaScript. Requires HTML5."
+    }
+  ]
 }
 </script>
