@@ -1,0 +1,19 @@
+# PDF Peeps
+
+> PDF Peeps is a free, web-based suite of PDF processing tools. It allows users to convert, merge, split, compress, and edit PDF documents directly within their web browser securely without client-side data exposure.
+
+## Core Utilities
+- [PDF Peeps Homepage](https://pdfpeeps.framer.website): Main dashboard access for all PDF web tools and file operations.
+- [Merge PDF](https://pdfpeeps.framer.website): Combine multiple PDF documents into a single unified file.
+- [Compress PDF](https://pdfpeeps.framer.website): Reduce PDF file sizes while maintaining document clarity and image resolution.
+- [Convert PDF](https://pdfpeeps.framer.website): Convert PDF files to and from images (JPG, PNG) or Office formats (Word, Excel).
+- [Edit PDF](https://pdfpeeps.framer.website): Fill out forms, insert digital signatures, and annotate PDF pages online.
+
+## Key Capabilities
+- **Browser-Based Execution**: All document processing operates locally or in transient secure sessions.
+- **Cross-Platform**: Fully compatible with desktop and mobile web browsers without software installation.
+- **Zero Cost**: Instant access to core PDF manipulation features without subscription barriers.
+
+## Optional
+- [Privacy Policy](https://pdfpeeps.framer.website): Information on security practices, cookie usage, and document handling policies.
+- [Contact & Support](https://pdfpeeps.framer.website): Submit feedback or request custom PDF utility features.
